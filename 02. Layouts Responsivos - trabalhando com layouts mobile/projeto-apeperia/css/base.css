@@ -16,7 +16,7 @@
     --planos-cartao-ultra: #B04CD9;
     --planos-cartao-mega: #E33B3B;
 
-    --montserrat: font-family: 'Montserrat', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
 }
 
 
@@ -37,4 +37,11 @@ body {
     padding: 1rem 2rem;
     border: 1px solid var(--branco);
     border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }
